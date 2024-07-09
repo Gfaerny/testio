@@ -4,8 +4,8 @@
    #You can use it like command and get it arg
 #a # example :
 #g # testio sciptname.cpp 
-#e # input 
-#### output
+#e # your input 
+#### your output
 
 os=$(lsb_release -si)
 base=$(lsb_release -si | tr '[:upper:]' '[:lower:]')
