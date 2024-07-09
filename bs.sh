@@ -1,6 +1,7 @@
 # this script is for build testio for linux and macos guy
 #u # ##########################################
-#s # You can use it like command and get it arg
+#s # how to use testio
+   #You can use it like command and get it arg
 #a # example :
 #g # testio sciptname.cpp 
 #e # input 
@@ -29,3 +30,4 @@ case $base in
         ;;
 esac
 g++ -o testio testio.cpp
+mv testio /usr/bin/
