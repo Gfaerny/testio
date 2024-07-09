@@ -1,0 +1,1 @@
+#this script used for linux guy 
