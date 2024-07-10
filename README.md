@@ -7,7 +7,7 @@ in progrs
 [windows]
 for windows you can use .exe file and 
 and run app in terminal and use arg
-'''bash
+```bash
 ./testio.exe yourscript.exe 10
-'''
+```
 
