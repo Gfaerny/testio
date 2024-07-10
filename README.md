@@ -10,4 +10,4 @@ and run app in terminal and use arg
 ```bash
 ./testio.exe yourscript.exe 10
 ```
-
+in this example we declare our script then say how time we want input and output
