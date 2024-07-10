@@ -3,3 +3,7 @@
 # testio
 This is the CLI program used for comparison. The script checks the input and output
 in progrs
+# how we can install testio ?
+-# windows 
+for windows you can use .exe file 
+
