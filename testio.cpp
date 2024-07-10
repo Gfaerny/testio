@@ -62,10 +62,11 @@ long long n = argv[2];
 
 else 
 {
-std::cerr<<"You have to enter command with argument( your script that want to test);
+std::cerr<<"You have to enter command with argument( your script that want to test)";
 
 return 1;
 }
+return 0;
 
 
 }
