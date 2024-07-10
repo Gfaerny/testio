@@ -5,5 +5,9 @@ This is the CLI program used for comparison. The script checks the input and out
 in progrs
 # how we can install testio ?
 [windows]
-for windows you can use .exe file 
+for windows you can use .exe file and 
+and run app in terminal and use arg
+'''bash
+./testio.exe yourscript.exe 10
+'''
 
