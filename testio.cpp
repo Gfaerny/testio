@@ -25,35 +25,40 @@ int main(int argc, char* argv[])
 {
 std::string in , out;
 std::string script = argv[1];
- if ( argc == 2)
+long long n = argv[2];
+ if ( argc == 3)
 {
-std::cout << "Enter input :"<<std::endl;
-std::cin>>in;
-std::cout << "Now enter the output :"<<std::endl;
-std::cin>>out;
-    std::string command = script + " < " + input;
-    std::string appOutput = runCommand(command);
+    for ( int i = 0; i< n; i++)
+
+    {
+        std::cout << "Enter input :"<<std::endl;
+        std::cin>>in;
+        std::cout << "Now enter the output :"<<std::endl;
+        std::cin>>out;
+        std::string command = script + " < " + input;
+        std::string appOutput = runCommand(command);
 
     // Read the expected output from the file
-    std::ifstream file(output);
-    std::string expectedOutput((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+        std::ifstream file(output);
+        std::string expectedOutput((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
 
     // Compare the output with the expected output
-    if (appOutput == expectedOutput) 
-    {
+        if (appOutput == expectedOutput) 
+        {
         std::cout << "Output matches the expected output." << std::endl;
-    } else 
-    {
-        std::cout << "Output does not match the expected output." << std::endl;
-    }
+        }       
+             else 
+            {
+               std::cout << "Output does not match the expected output." << std::endl;
+            }
 
 
 
 
 
 
-}
-
+            }
+     }
 
 else 
 {
