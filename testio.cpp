@@ -1,6 +1,5 @@
 #include <iostream>
-
-
+#include <string>
 std::string runCommand(const std::string& command) 
 {
     char buffer[128];
