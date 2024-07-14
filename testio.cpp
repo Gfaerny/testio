@@ -1,3 +1,9 @@
+/// Gfaerny
+/// No License
+/// Hope You Use and Like
+
+/// This cpp code Is super Experimental Just For now ignore it
+
 #include <iostream>
 #include <string>
 std::string runCommand(const std::string& command) 
